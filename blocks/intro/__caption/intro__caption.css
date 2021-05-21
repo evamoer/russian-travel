@@ -1,0 +1,9 @@
+.intro__caption {
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #fff;
+  letter-spacing: 1.5px;
+}

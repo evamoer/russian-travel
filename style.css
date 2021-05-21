@@ -78,8 +78,6 @@
   bottom: -2px;
 }
 
-*/
-
 @font-face {
   src: url(./fonts/Inter-Black.woff) format('woff'),
        url(./fonts/Inter-Black.woff2) format('woff2');
@@ -96,12 +94,12 @@
   max-width: 984px;
 }
 
+
+
 .intro__title {
   margin: 0 auto 32px;
   padding: 0;
-  
   max-width: 720px;
-  
   font-family: 'Inter', sans-serif;
   font-size: 96px;
   font-weight: 900;
@@ -110,12 +108,11 @@
   text-align: center;
 }
 
+
 .intro__subtitle {
   margin: 0 auto 64px;
   padding: 0;
-  
   max-width: 640px;
-  
   font-family: 'Inter', sans-serif;
   font-size: 30px;
   font-weight: 400;
@@ -144,6 +141,7 @@
   letter-spacing: 1.5px;
 }
 
+*/
 
 
 

@@ -6,6 +6,14 @@
   font-weight: 400;
 }
 
+@font-face {
+  src: url(./fonts/Inter-Black.woff) format('woff'),
+       url(./fonts/Inter-Black.woff2) format('woff2');
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+}
+
 .page {
   width: 100%;
   margin: 0 auto;
