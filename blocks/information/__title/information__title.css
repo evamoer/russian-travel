@@ -1,0 +1,11 @@
+.information__title {
+  margin: 0 0 40px 0;
+  padding: 0;
+  max-width: 690px; 
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.07;
+  color: #FFFFFF;
+}
