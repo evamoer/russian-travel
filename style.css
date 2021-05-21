@@ -80,15 +80,69 @@
 
 */
 
+@font-face {
+  src: url(./fonts/Inter-Black.woff) format('woff'),
+       url(./fonts/Inter-Black.woff2) format('woff2');
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+}
 
+.intro {
+  margin: 0 auto;
+}
 
+.container_size_medium {
+  max-width: 984px;
+}
 
+.intro__title {
+  margin: 0 auto 32px;
+  padding: 0;
+  
+  max-width: 720px;
+  
+  font-family: 'Inter', sans-serif;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 1.04;
+  color: #fff;
+  text-align: center;
+}
 
+.intro__subtitle {
+  margin: 0 auto 64px;
+  padding: 0;
+  
+  max-width: 640px;
+  
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #fff;
+  text-align: center;
+}
 
+.intro__figure {
+  margin: 0 auto;
+  padding-bottom: 92px;
+  max-width: 984px;
+}
 
+.intro__image {
+  margin-bottom: 8px;
+}
 
-
-
+.intro__caption {
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #fff;
+  letter-spacing: 1.5px;
+}
 
 
 
