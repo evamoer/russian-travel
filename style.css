@@ -305,17 +305,70 @@
   margin-bottom: 0;
 }
 
+/* ---------- Cover ---------- */
 
+.cover {
+  padding-top: 92px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.cover__text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+}
 
+.cover__title {
+  margin: 0 0 32px 0;
+  padding: 0;
+  max-width: 560px;
+  
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  /* or 106% */
+  text-align: center;
+  color: #FFFFFF;
+}
 
+.cover__subtitle {
+  margin: 0;
+  padding: 0;
+  max-width: 360px;
+    
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+  text-align: center;
+  color: #FFFFFF;
+}
 
+.cover__link {
+  position: relative;
+}
 
+.cover__background {
+  position: relative;
+}
 
-
-
-
-
+.cover__background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: #2A2C2F;
+  opacity: .3;
+}
 
 
 
