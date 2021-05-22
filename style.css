@@ -207,11 +207,65 @@
 
 /* ---------- Places ---------- */
 
+.places {
+  margin: 0 auto;
+}
 
+.places__table {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
 
+.places__card {
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-rows: minmax(min-content, 76px) minmax(min-content, 460px);
+  grid-template-columns: minmax(min-content, 460px) minmax(min-content, 460px);
+  grid-row-gap: 48px;
+  grid-column-gap: 40px;
+}
 
+.places__card:last-child {
+  margin-bottom: 0;
+}
 
+.places__title {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  /* identical to box height, or 106% */
+  color: #FFFFFF;
+}
 
+.places__website {
+  margin: 0;
+  padding: 0;
+}
+
+.places__image {
+  
+}
+
+.places__description {
+  
+}
+
+.places__paragraph {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  /* or 29px */
+  color: #FFFFFF;
+}
 
 
 
