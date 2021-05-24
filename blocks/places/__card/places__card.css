@@ -1,0 +1,12 @@
+.places__card {
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-rows: minmax(min-content, 76px) minmax(min-content, 460px);
+  grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
+  grid-row-gap: 48px;
+  grid-column-gap: 40px; 
+}
+
+.places__card:last-child {
+  margin-bottom: 0;
+}

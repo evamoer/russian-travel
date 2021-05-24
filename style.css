@@ -184,7 +184,7 @@
   font-weight: 700;
 }
 
-*/
+
 
 .gallery {
   margin: 0 auto;
@@ -205,8 +205,11 @@
   
 }
 
+
+
 /* ---------- Places ---------- */
 
+/*
 .places {
   margin: 0 auto;
 }
@@ -225,8 +228,7 @@
   grid-template-rows: minmax(min-content, 76px) minmax(min-content, 460px);
   grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
   grid-row-gap: 48px;
-  grid-column-gap: 40px;
-  
+  grid-column-gap: 40px; 
 }
 
 .places__card:last-child {
@@ -240,7 +242,7 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  /* identical to box height, or 106% */
+  /* identical to box height, or 106% 
   color: #FFFFFF;
 }
 
@@ -248,31 +250,31 @@
   align-self: end;
 }
 
-.places__website-url {
+.places__website_type_url {
   margin: 0;
   padding: 0 0 12px 0;
   display: block;
   font-weight: normal;
   font-size: 12px;
   line-height: 12px;
-  /* identical to box height, or 100% */
+  /* identical to box height, or 100% 
   letter-spacing: 0.2em;
   color: #AAAAAA;
 }
 
-.places__website-link {
+.places__website_type_link {
   margin: 0;
   padding: 0;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-  /* identical to box height, or 122% */
+  /* identical to box height, or 122% 
   text-decoration-line: none;
   color: #FFFFFF;
   position: relative;
 }
 
-.places__website-link::after {
+.places__website_type_link::after {
   content: '';
   width: 100%;
   height: 2px;
@@ -297,15 +299,19 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 163%;
-  /* or 29px */
+  /* or 29px 
   color: #FFFFFF;
 }
 
 .places__paragraph:last-child {
   margin-bottom: 0;
 }
+*/
+
 
 /* ---------- Cover ---------- */
+
+/*
 
 .cover {
   margin-top: 92px;
@@ -365,7 +371,11 @@
   position: relative;
 }
 
+*/
+
 /* ---------- Footer ---------- */
+
+/*
 
 .footer {
   padding-top: 92px;
@@ -384,7 +394,7 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
-  /* identical to box height, or 112% */
+  /* identical to box height, or 112% 
   color: #FFFFFF;
   text-decoration: none;
 }
@@ -398,7 +408,7 @@
   line-height: 16px;
 }
 
-
+*/
 
 
 
