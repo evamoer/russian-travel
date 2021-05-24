@@ -365,10 +365,38 @@
   position: relative;
 }
 
+/* ---------- Footer ---------- */
 
+.footer {
+  padding-top: 92px;
+  padding-bottom: 24px;
+  display: flex; 
+  justify-content: space-between;
+}
 
+.navigation {
+  width: 465px;
+  display: flex;
+  justify-content: space-between;
+}
 
+.navigation__link {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+  color: #FFFFFF;
+  text-decoration: none;
+}
 
+.footer__copyright {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
 
 
 
