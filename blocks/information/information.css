@@ -1,7 +1,4 @@
 .information {
   margin: 0 auto;
-  max-width: 984px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  max-width: 1280px;
 }
