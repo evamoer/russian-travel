@@ -19,3 +19,7 @@
   left: 0;
   background-color: #fff;
 }
+
+.places__website_type_link:hover {
+  opacity: .8;
+}
