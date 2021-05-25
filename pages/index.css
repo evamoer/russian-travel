@@ -102,6 +102,8 @@
 
 @import url(../blocks/footer/footer.css);
 
+@import url(../blocks/footer/__container/footer_container.css);
+
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
 @import url(../blocks/navigation/navigation.css);
