@@ -1,6 +1,7 @@
 .header__container {
-  padding-top: 28px;
-  padding-bottom: 56px;
+  margin: 28px 48px 56px 48px;
+  width: 100%;
+  max-width: 1184px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
