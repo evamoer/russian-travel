@@ -74,9 +74,9 @@
 
 @import url(../blocks/places/__website/places__website.css);
 
-@import url(../blocks/places/__website/_type/places__website_type_url.css);
+@import url(../blocks/places/__website-url/places__website-url.css);
 
-@import url(../blocks/places/__website/_type/places__website_type_link.css);
+@import url(../blocks/places/__website-link/places__website-link.css);
 
 @import url(../blocks/places/__image/places__image.css);
 
