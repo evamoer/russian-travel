@@ -8,3 +8,10 @@
   line-height: 1.08;
   color: #fff;
 }
+
+@media screen and (max-width: 320px) {
+  .information__title {
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}
