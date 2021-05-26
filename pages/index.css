@@ -108,9 +108,9 @@
 
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
-@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/footer/__navigation/footer__navigation.css);
 
-@import url(../blocks/navigation/__link/navigation__link.css);
+@import url(../blocks/footer/__navigation-link/footer__navigation-link.css);
 
 
 

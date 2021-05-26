@@ -1,6 +1,38 @@
 .footer__container {
   padding: 92px 0 24px 0;
-  margin: 0 48px;
+  margin: 0 auto;
   display: flex; 
   justify-content: space-between;
 }
+
+  
+  @media screen and (max-width: 1280px) {
+    .footer__container {
+      max-width: 1184px;
+      margin: 0 48px;
+    }
+  }
+
+@media screen and (max-width: 1024px) {
+    .footer__container {
+      max-width: 928px;
+      margin: 0 48px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .footer__container {
+      padding: 88px 0 24px 0;
+      max-width: 720px;
+      margin: 0 24px;
+    }
+  }
+
+@media screen and (max-width: 320px) {
+    .footer__container {
+      padding: 64px 0 24px 0;
+      max-width: 186px;
+      margin: 0 118px 0 16px;
+      flex-direction: column;
+    }
+  }
