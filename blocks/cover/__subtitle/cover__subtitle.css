@@ -4,7 +4,7 @@
   padding: 32px 0 0 0;
   font-size: 18px;
   font-weight: normal;
-  line-height: 22px;
+  line-height: 1.22;
   text-align: center;
   color: #fff;
   position: relative;
@@ -36,5 +36,7 @@
     max-width: 288px;
     padding-top: 16px;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.15;
+  }
 }
+  

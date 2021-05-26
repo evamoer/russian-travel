@@ -31,10 +31,3 @@
     min-height: 62.5vw;
   } 
 }
-
-@media screen and (max-width: 1024px) {
-  .cover__container {
-    width: 100vw;
-    min-height: 62.5vw;
-  } 
-}
