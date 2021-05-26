@@ -24,6 +24,8 @@
 
 @import url(../blocks/header/__lang-list/header__lang-list.css);
 
+@import url(../blocks/header/__lang-name/header__lang-name.css);
+
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);

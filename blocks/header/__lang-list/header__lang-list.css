@@ -2,16 +2,6 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  width: 77px;
-  height: 28px;
   display: flex;
   justify-content: space-between;
-}
-
-@media screen and (max-width: 320px) {
-  
-  .header__lang-list {
-    width: 62px;
-    height: 20px;
-  }
 }
