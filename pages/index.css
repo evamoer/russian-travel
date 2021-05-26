@@ -1,14 +1,10 @@
-/*@font-face {
-  src: url(./fonts/Inter-Regular.woff) format('woff'),
-       url(./fonts/Inter-Ragular.woff2) format('woff2');
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-}*/
-
 /* ---------- Normalize ---------- */
 
 @import url(../vendor/normalize.css);
+
+/* ---------- Normalize ---------- */
+
+@import url(../blocks/fonts/fonts.css);
 
 /* ---------- Page ---------- */
 
