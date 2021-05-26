@@ -1,7 +1,27 @@
 .places__table {
-  margin: 0 148px;
+  margin: 0 auto;
   padding: 0 0 92px 0;
   list-style: none;
-  display: grid;
-  grid-row-gap: 80px;
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__table {
+    margin: 0 48px;
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__table {
+    margin: 0 24px;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__table {
+    margin: 0;
+    max-width: 320px;
+  }
 }

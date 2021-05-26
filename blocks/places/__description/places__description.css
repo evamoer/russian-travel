@@ -1,5 +1,11 @@
 .places__description {
   display: flex;
   flex-direction: column;
-  width: 100%;
+}
+
+
+@media screen and (max-width: 320px)  {
+  .places__description {
+    margin: 0 16px;
+  }
 }
