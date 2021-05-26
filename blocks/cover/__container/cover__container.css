@@ -1,13 +1,12 @@
 .cover__container {
   margin: 0 auto;
-  padding: 0;
-  max-width: 1184px; 
-  margin: 0 auto;
+  padding: 0;  
+  max-width: 1184px;
+  min-height: 740px;
   background-image: url(../../../images/cover__background.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 57.8125vw;
   position: relative;
 } 
 
@@ -28,13 +27,14 @@
 
 @media screen and (max-width: 1280px) {
   .cover__container {
-    margin: 0 48px;
+    min-height: 62.5vw;
   } 
 }
 
 @media screen and (max-width: 1024px) {
   .cover__container {
-    margin: 0;
+
+    width: 100vw;
     min-height: 62.5vw;
   } 
 }
