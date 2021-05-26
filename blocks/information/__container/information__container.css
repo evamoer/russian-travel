@@ -1,5 +1,6 @@
 .information__container {
   margin: 0 auto;
+  padding: 0 0 92px 0;
   max-width: 984px;
   display: flex;
   flex-direction: column;
@@ -9,19 +10,19 @@
 @media screen and (max-width: 1024px) {
   .information__container {
     margin: 0 48px;
-    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .information__container {
     margin: 0 24px;
-    max-width: 720px;
+    padding-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .information__container {
     margin: 0 16px;
+    padding-bottom: 64px;
   }
 }

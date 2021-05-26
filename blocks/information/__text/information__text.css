@@ -8,3 +8,9 @@
   line-height: 1.63;
   color: #fff;
 }
+
+@media screen and (max-width: 320px) {
+  .information__text {
+    margin-bottom: 34px;
+  }
+}
