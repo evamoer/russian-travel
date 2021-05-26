@@ -17,6 +17,7 @@
     grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
     grid-template-columns: calc(100% - 32px - 49.13%) calc(100% - 32px - 47.41%);
     max-width: 928px;
+    grid-column-gap: 32px;
   }
 }
 
@@ -26,6 +27,7 @@
     grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
     grid-template-columns: calc(100% - 28px - 48.88%) calc(100% - 28px - 47.22%);
     max-width: 720px;
+    grid-column-gap: 28px;
   }
   
   .places__card:last-child {

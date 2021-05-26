@@ -6,13 +6,18 @@
   /* identical to box height, or 112% */
   color: #FFFFFF;
   text-decoration: none;
+  transition: opacity .2s linear;
 }
 
 .footer__navigation-link:last-child {
   margin-right: 0;
 }
 
-@media screen and (max-width: 320px) {
+.footer__navigation-link:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 700px) {
   .footer__navigation-link {
     margin-right: 0;
     padding-bottom: 32px;

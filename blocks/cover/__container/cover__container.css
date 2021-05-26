@@ -13,7 +13,7 @@
 .cover__container::before {
   content: '';
   background-color: #2a2c2f;
-  opacity: .3;
+  opacity: 0;
   position: absolute;
   top: 0;
   left: 0;
@@ -22,7 +22,7 @@
 }
 
 .cover__container:hover::before {
-  opacity: .8;
+  opacity: .2;
 }
 
 @media screen and (max-width: 1280px) {
@@ -33,7 +33,6 @@
 
 @media screen and (max-width: 1024px) {
   .cover__container {
-
     width: 100vw;
     min-height: 62.5vw;
   } 
