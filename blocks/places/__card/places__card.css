@@ -10,7 +10,7 @@
 
 .places__card:last-child {
     margin-bottom: 0;
-
+}
 
 @media screen and (max-width: 1024px) {
   .places__card {
@@ -34,9 +34,9 @@
 
 @media screen and (max-width: 320px) {
   .places__card {
-    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
   }
   .places__card:last-child {
     margin-bottom: 0;

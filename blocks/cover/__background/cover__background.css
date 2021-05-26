@@ -1,4 +1,5 @@
 .cover__background {
+  /*
   margin: 0 auto;
   background-image: url(../../../images/cover__background.png);
   background-repeat: no-repeat;
@@ -9,6 +10,7 @@
   max-width: 100vw;
   min-height: 57.8125vw;
   position: relative;
+  */
   
 }
 
