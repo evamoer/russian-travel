@@ -1,5 +1,5 @@
 @font-face {
-  src: url(../../fonts/Inter-Black.woff) format('woff'),
+  src: url(../../fonts/Inter-Regular.woff) format('woff'),
        url(../../fonts/Inter-Ragular.woff2) format('woff2');
   font-family: 'Inter';
   font-style: normal;
@@ -20,3 +20,4 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
+}

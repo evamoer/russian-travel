@@ -2,7 +2,7 @@
 
 @import url(../vendor/normalize.css);
 
-/* ---------- Normalize ---------- */
+/* ---------- Fonts ---------- */
 
 @import url(../blocks/fonts/fonts.css);
 
@@ -90,8 +90,6 @@
 
 @import url(../blocks/cover/__container/cover__container.css);
 
-@import url(../blocks/cover/__background/cover__background.css);
-
 @import url(../blocks/cover/__link/cover__link.css);
 
 @import url(../blocks/cover/__title/cover__title.css);
@@ -109,15 +107,3 @@
 @import url(../blocks/footer/__navigation/footer__navigation.css);
 
 @import url(../blocks/footer/__navigation-link/footer__navigation-link.css);
-
-
-
-
-
-
-
-
-
-
-
-
