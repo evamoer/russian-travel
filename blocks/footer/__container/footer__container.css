@@ -1,4 +1,5 @@
 .footer__container {
+  max-width: 1184px;
   padding: 92px 0 24px 0;
   margin: 0 auto;
   display: flex;
@@ -8,14 +9,6 @@
   
   @media screen and (max-width: 1280px) {
     .footer__container {
-      max-width: 1184px;
-      margin: 0 48px;
-    }
-  }
-
-@media screen and (max-width: 1024px) {
-    .footer__container {
-      max-width: 928px;
       margin: 0 48px;
     }
   }
