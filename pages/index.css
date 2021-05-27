@@ -4,7 +4,7 @@
 
 /* ---------- Fonts ---------- */
 
-@import url(../blocks/fonts/fonts.css);
+@import url(../fonts/fonts.css);
 
 /* ---------- Page ---------- */
 
@@ -88,8 +88,6 @@
 
 @import url(../blocks/cover/cover.css);
 
-@import url(../blocks/cover/__container/cover__container.css);
-
 @import url(../blocks/cover/__link/cover__link.css);
 
 @import url(../blocks/cover/__title/cover__title.css);
@@ -100,10 +98,14 @@
 
 @import url(../blocks/footer/footer.css);
 
-@import url(../blocks/footer/__container/footer_container.css);
+@import url(../blocks/footer/__container/footer__container.css);
 
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
 @import url(../blocks/footer/__navigation/footer__navigation.css);
+
+@import url(../blocks/footer/__navigation-list/footer__navigation-list.css);
+
+@import url(../blocks/footer/__navigation-item/footer__navigation-item.css);
 
 @import url(../blocks/footer/__navigation-link/footer__navigation-link.css);

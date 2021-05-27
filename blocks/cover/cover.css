@@ -1,4 +1,39 @@
 .cover {
   margin: 0 auto;
-  max-width: 1280px;
+  padding: 0;
+  max-width: 1184px;
+  min-height: 740px;
+  background-image: url(../../images/cover__background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.cover::before {
+  content: '';
+  background-color: #2a2c2f;
+  opacity: .3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: opacity .4s ease-in;
+}
+
+.cover:hover::before {
+  opacity: .8;
+}
+
+@media screen and (max-width: 1280px) {
+  .cover {
+    min-height: 57.8125vw;
+  } 
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    min-height: 62.5vw;
+  } 
 }

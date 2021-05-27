@@ -7,16 +7,7 @@
   text-decoration-line: none;
   color: #fff;
   position: relative;
-}
-
-.places__website-link::after {
-  content: '';
-  width: 100%;
-  height: 2px;
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  background-color: #fff;
+  border-bottom: 2px solid #fff;
 }
 
 .places__website-link:hover {

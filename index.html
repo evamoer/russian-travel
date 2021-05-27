@@ -10,7 +10,7 @@
   <div class="page">
     <header class="header">
       <div class="header__container">
-        <img class="header__logo" src="./images/header__logo.png" alt="Лого Россия">
+        <img class="header__logo" src="./images/header__logo.svg" alt="Лого Россия">
         <ul class="header__lang-list">
           <li class="header__lang-name"><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
           <li class="header__lang-name"><a class="header__lang-link" href="#">En</a></li>
@@ -21,8 +21,8 @@
     <main class="content">
       <section class="intro">
         <div class="intro__container">
-          <h1 class="intro__title">Путешествия по&nbsp;России</h1>
-          <h2 class="intro__subtitle">Настоящая&nbsp;страна&nbsp;не&nbsp;в&nbsp;выпусках новостей,&nbsp;а&nbsp;здесь.</h2>
+          <h1 class="intro__title">Путешествия по России</h1>
+          <p class="intro__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
             <img class="intro__image" src="./images/intro__image.png" alt="Фото в поезде">
             <p class="intro__caption">ваша полка — верхняя</p>
         </div><!--/intro__container-->
@@ -63,7 +63,10 @@
         <ul class="places__table">         
           <li class="places__card">
             <h2 class="places__title">Куршская коса</h2>
-            <div class="places__website"><span class="places__website-url">URL</span><a class="places__website-link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a></div>
+            <div class="places__website">
+              <span class="places__website-url">URL</span>
+              <a class="places__website-link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
+            </div>
             <img class="places__image" src="./images/place__kurshskaya_kosa.png" alt="Куршская коса">
             <div class="places__description">
               <p class="places__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
@@ -73,7 +76,10 @@
           
           <li class="places__card">
             <h2 class="places__title">Кольский</h2>
-            <div class="places__website"><span class="places__website-url">URL</span><a class="places__website-link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a></div>
+            <div class="places__website">
+              <span class="places__website-url">URL</span>
+              <a class="places__website-link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
+            </div>
             <img class="places__image" src="./images/place__kolskiy.png" alt="Кольский">
             <div class="places__description">
               <p class="places__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — 
@@ -85,7 +91,10 @@
           
           <li class="places__card">
             <h2 class="places__title">Алтай</h2>
-            <div class="places__website"><span class="places__website-url">URL</span><a class="places__website-link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a></div>
+            <div class="places__website">
+              <span class="places__website-url">URL</span>
+              <a class="places__website-link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
+            </div>
             <img class="places__image" src="./images/place__altay.png" alt="Алтай">
             <div class="places__description">
               <p class="places__paragraph">Алтай — одно из красивейших мест в России. 
@@ -96,7 +105,10 @@
           
           <li class="places__card">
             <h2 class="places__title">Зимний Байкал</h2>
-            <div class="places__website"><span class="places__website-url">URL</span><a class="places__website-link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a></div>
+            <div class="places__website">
+              <span class="places__website-url">URL</span>
+              <a class="places__website-link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
+            </div>
             <img class="places__image" src="./images/place__baikal.png" alt="Зимний Байкал">
             <div class="places__description">
               <p class="places__paragraph">Всем известен Байкал как крупнейшее озеро 
@@ -108,7 +120,10 @@
           
           <li class="places__card">
             <h2 class="places__title">Карелия</h2>
-            <div class="places__website"><span class="places__website-url">URL</span><a class="places__website-link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a></div>
+            <div class="places__website">
+              <span class="places__website-url">URL</span>
+              <a class="places__website-link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
+            </div>
             <img class="places__image" src="./images/place__kareliya.png" alt="Карелия">
             <div class="places__description">
               <p class="places__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. 
@@ -121,12 +136,8 @@
       
       <section class="cover">
         <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
-          <div class="cover__container">
-            <div class="cover__background">
-              <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
-              <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-            </div>  
-          </div>
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
         </a>
       </section><!--/cover-->
     </main>
@@ -134,12 +145,24 @@
     <footer class="footer">
       <div class="footer__container">
         <nav class="footer__navigation">
-        <a class="footer__navigation-link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-        <a class="footer__navigation-link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-        <a class="footer__navigation-link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-        <a class="footer__navigation-link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-        <a class="footer__navigation-link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
-      </nav>
+          <ul class="footer__navigation-list">
+            <li class="footer__navigation-item">
+              <a class="footer__navigation-link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a class="footer__navigation-link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a class="footer__navigation-link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a class="footer__navigation-link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a class="footer__navigation-link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+            </li>
+          </ul>
+        </nav>
         <p class="footer__copyright"> © 2021. Ермоева Ирина</p>
       </div>
     </footer>

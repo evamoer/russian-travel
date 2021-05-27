@@ -1,16 +1,10 @@
 .footer__navigation-link {
-  margin-right: 18px;
   font-weight: normal;
   font-size: 16px;
-  line-height: 18px;
-  /* identical to box height, or 112% */
-  color: #FFFFFF;
+  line-height: 1.125;
+  color: #fff;
   text-decoration: none;
   transition: opacity .2s linear;
-}
-
-.footer__navigation-link:last-child {
-  margin-right: 0;
 }
 
 .footer__navigation-link:hover {
@@ -19,13 +13,7 @@
 
 @media screen and (max-width: 700px) {
   .footer__navigation-link {
-    margin-right: 0;
-    padding-bottom: 32px;
     font-size: 24px;
     line-height: 1;
-  }
-  
-  .footer__navigation-link:last-child {
-    margin-bottom: 0;
   }
 }
